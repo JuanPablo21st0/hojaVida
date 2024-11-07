@@ -1,0 +1,164 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+header .logo { 
+  font-size: 24px;
+  font-weight: bold;
+  color: #f05454; 
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.menu a:hover {
+  color: #f05454; 
+}
+
+main {
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee; 
+  padding-bottom: 10px;
+}
+
+
+p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto; 
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #eee;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f05454; 
+  color: white;
+  font-weight: bold;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Estilos para la sección de comentarios */
+#comentarios {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#comentarios h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* Estilos para el formulario */
+#comentarios form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#comentarios label {
+  margin-bottom: 5px;
+}
+
+#comentarios input,
+#comentarios textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+#comentarios button[type="submit"] {
+  background-color: #f05454;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#comentarios button[type="submit"]:hover {
+  background-color: #d94343;
+}

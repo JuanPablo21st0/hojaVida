@@ -1,0 +1,88 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f8f8f8; /
+  color: #333;
+}
+
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+header span { 
+  font-size: 24px;
+  font-weight: bold;
+  color: #f05454; 
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  margin: 0; 
+}
+
+
+main {
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos del formulario verticalmente */
+  width: 50%; /* Ajusta el ancho del formulario según tus necesidades */
+  margin: 0 auto; /* Centra el formulario */
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Bordes ligeramente redondeados */
+}
+
+/* Estilos para el botón */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f05454; /* Color vibrante para el botón */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #d94343;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
